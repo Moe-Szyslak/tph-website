@@ -43,7 +43,7 @@ body {
     width: 0;
   }
   to {
-    width: 13em;
+    width: 15em;
   }
 }
 
@@ -84,6 +84,7 @@ body {
 }
 
 .form {
+  
   color: white;
   line-height: 15;
   text-decoration: none;
@@ -99,14 +100,26 @@ body {
   text-decoration: none;
 }
 
+#forms:hover {
+  font-size: 200%;
+}
+
 #about {
   color: rgba(255, 255, 255, 0.75);
   text-decoration: none;
 }
 
+#about:hover {
+  font-size: 200%;
+}
+
 #contact {
   color: rgba(255, 255, 255, 0.75);
   text-decoration: none;
+}
+
+#contact:hover {
+  font-size: 200%;
 }
 
 
