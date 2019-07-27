@@ -79,3 +79,28 @@ body {
 .titlecase {
   color: rgb(255,148,132)
 }
+
+.form {
+  color: white;
+  line-height: 15;
+  text-decoration: none;
+  display: flex;
+}
+
+#forms {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+#about {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+#contact {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+
+
