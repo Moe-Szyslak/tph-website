@@ -85,11 +85,8 @@ body {
 }
 
 .titlecase {
-<<<<<<< HEAD
   color: #00ECFF;
-=======
   color: rgb(255,148,132)
->>>>>>> 61931d709e1c5667f3ee40941358e42ae3c53961
 }
 
 .form {
@@ -131,7 +128,6 @@ body {
   font-size: 200%;
 }
 
-<<<<<<< HEAD
 canvas{
   display: block;
   color: blue;
