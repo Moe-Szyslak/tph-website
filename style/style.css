@@ -1,3 +1,5 @@
+
+
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
@@ -7,7 +9,7 @@ html {
   overflow: hidden;
 }
 
-body {
+.wrap-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,9 +18,12 @@ body {
   padding: 4em;
   color: rgba(255, 255, 255, 0.75);
   font-family: "Anonymous Pro", monospace;
-  background-color: rgb(25, 25, 25);
+  position: relative;
 }
 
+body {
+  margin: 0;
+}
 .line-1 {
 /*   position: relative; */
 /*   top: 50%; */
@@ -80,7 +85,11 @@ body {
 }
 
 .titlecase {
+<<<<<<< HEAD
+  color: #00ECFF;
+=======
   color: rgb(255,148,132)
+>>>>>>> 61931d709e1c5667f3ee40941358e42ae3c53961
 }
 
 .form {
@@ -122,5 +131,18 @@ body {
   font-size: 200%;
 }
 
-
-
+<<<<<<< HEAD
+canvas{
+  display: block;
+  color: blue;
+} /* ---- particles.js container ---- */ 
+#particles-js { 
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  background-color: #121240; 
+  background-repeat: no-repeat; 
+  background-size: 100%; 
+  background-position: 50% 50%; 
+  /* z-index: -1;  */
+}
