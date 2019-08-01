@@ -5,11 +5,23 @@
 	<title>The Programmer's Hangout</title>
 	<link rel="stylesheet" type="text/css" href="/style.css" />
 	<link rel="icon" href="tph.png" type="image/icon type">
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+$(document).ready(function(){
+  $("#tph").click(function(){
+    $("#tph").fadeOut(750);
+	});
+});
+	</script>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 
 <body>
+	
+	<script src="/tph.js"></script>
+	<img id="tph" src="tph.png"/>
+	<div class="panel left"></div>
+  <div class="panel right"></div>
 		<div id="particles-js"></div>
 <div class="wrap-content">
 	

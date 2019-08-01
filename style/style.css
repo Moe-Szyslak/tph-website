@@ -22,8 +22,54 @@ html {
 }
 
 body {
+  position: relative;
   margin: 0;
+  height: 100vh;
 }
+
+body.open .panel.left {
+    transform: translateX(-100%);
+    z-index: 1;
+}
+
+body.open .panel.right {
+    transform: translateX(100%);
+    z-index: 1;
+}
+
+.panel {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: #B03034;
+  transition: all 0.5s ease;
+  z-index: 1;
+  
+}
+
+.panel.right {
+  right: 0;
+  z-index: 1;
+}
+
+#tph {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 30%;
+  z-index: 2;
+  box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+  border-radius: 150px;
+}
+
+#tph:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: all scale(1.5);
+  transition: transform .8s;
+}
+
 .line-1 {
 /*   position: relative; */
 /*   top: 50%; */

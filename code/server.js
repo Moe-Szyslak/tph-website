@@ -16,6 +16,7 @@ app.use('/api/discord', require('../api/discord'));
 app.use(express.static(path.join(__dirname, '../style')));
 app.use(express.static(path.join(__dirname, '../code')));
 app.use(express.static(path.join(__dirname, '../media')));
+app.use(express.static(path.join(__dirname, '../')));
 
 app.use((err, req, res, next) => {
   switch (err.message) {

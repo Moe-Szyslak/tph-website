@@ -5,4 +5,6 @@ var showText = function (target, message, index, interval) {
     }
   }
 
-  
+  document.querySelector('body').addEventListener('click', function() {
+    document.querySelector('body').classList.add("open");
+  });
